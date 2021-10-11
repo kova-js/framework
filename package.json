@@ -1,5 +1,5 @@
 {
-  "name": "ts-monorepo",
+  "name": "@kova/framework",
   "description": "Template for setting up a TypeScript monorepo",
   "private": true,
   "workspaces": [
@@ -20,7 +20,7 @@
     "eslint": "~7.32.0",
     "eslint-plugin-import": "~2.24.0",
     "lerna": "~4.0.0",
-    "react": "~17.0.0",
-    "typescript": "~4.4.0"
+    "react": "^17.0.0",
+    "typescript": "^4.4.0"
   }
 }

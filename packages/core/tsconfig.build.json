@@ -1,9 +1,10 @@
 {
-  /* Use the config the HAS the aliases. */
-  "extends": "../../tsconfig.json",
+  "extends": "../../tsconfig.build.json",
+
   "compilerOptions": {
     "outDir": "./dist"
   },
+
   "include": [
     "src/**/*"
   ]
