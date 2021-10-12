@@ -1,11 +1,10 @@
 {
   "extends": "./tsconfig.build.json",
-
   "compilerOptions": {
     "baseUrl": ".",
+    "experimentalDecorators": true,
     "paths": {
-      "@nighttrax/components/*": ["packages/components/src/*"],
-      "@nighttrax/*": ["packages/*/src"]
+      "@kova/*": ["packages/*/src"]
     },
     "noEmit": true
   }
